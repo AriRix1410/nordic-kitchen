@@ -9,4 +9,16 @@
 body {
     font-family: 'Hind Madurai', sans-serif;
     font-weight: 300;
+    color: #777696;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: 'Skranji', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #697d97;
+    float: left;
+    font-size: 280%;
 }
