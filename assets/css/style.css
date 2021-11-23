@@ -21,6 +21,7 @@ body {
     color: #697d97;
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -51,4 +52,20 @@ body {
 
 .active {
     border-bottom: 3px solid #697d97;
+}
+
+/* hero box */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/waffle-hearts.jpg) no-repeat center center;
+    background-size: cover;
+    margin: auto;
 }
