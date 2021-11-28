@@ -114,7 +114,7 @@ h1, h2 {
     background-color: #fff;
     height: 600px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #favourites-heading {
@@ -147,8 +147,8 @@ h1, h2 {
 }
 
 .recipe-container {
-    width: 200px;
-    height: 200px;
+    width: 360px;
+    height: 360px;
     padding: 30px;
     border-style: solid;
     border-color: #A7C5EB;
@@ -157,8 +157,19 @@ h1, h2 {
 }
 
 #recipe-one {
-    background-image: url(../images/salmon-square.jpg) no-repeat center center;
-    height: 200px;
-    width: 200px;
+    background: url(../images/salmon-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#recipe-two {
+    background: url(../images/moose-burger-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#recipe-three {
+    background: url(../images/lasagne-square.jpg);
+    height: 100%;
     border-radius: 50%;
 }
