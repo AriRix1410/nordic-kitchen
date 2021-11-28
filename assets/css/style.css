@@ -9,8 +9,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #777696;
-    background-color: #697d97;
+    color: #413C69;
+    background-color: #709FB0;
 }
 
 /* header and logo */
@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 #logo {
-    color: #29446f;
+    color: #413C69;
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -59,11 +59,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-   border-bottom: 3px solid #697d97;
+   border-bottom: 3px solid #709FB0;
 }
 
 .active {
-    border-bottom: 3px solid #697d97;
+    border-bottom: 3px solid #709FB0;
 }
 
 /* hero box */
@@ -100,7 +100,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
     
-    background-color: rgba(134, 144, 201, 0.7);
+    background-color: rgba(74,71,163, 0.7);
 
     bottom: 50px;
     right: 125px;
@@ -115,11 +115,17 @@ h1, h2 {
     height: 600px;
     width: 100%;
     margin-top: 30px;
-    text-align: center;
 }
 
-#favourites h3 {
-    color: #777696
+#favourites-heading {
+    color: #413C69;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+.popular-recipes {
+    text-align: center;
 }
 
 #left-favourite {
@@ -138,4 +144,21 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
+}
+
+.recipe-container {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #A7C5EB;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#recipe-one {
+    background-image: url(../images/salmon-square.jpg) no-repeat center center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
