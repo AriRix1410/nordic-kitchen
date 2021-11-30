@@ -55,7 +55,7 @@ h1, h2 {
     margin-right: 30px;
 }
 
-#menu a {
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -203,6 +203,10 @@ h1, h2 {
 
 .hover-text:hover {
     opacity: 1;
+}
+
+.hover-text a {
+    text-decoration: none;
 }
 
 #recipe-three {
