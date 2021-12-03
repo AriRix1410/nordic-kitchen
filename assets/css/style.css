@@ -9,8 +9,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #413C69;
-    background-color: #709FB0;
+    color: #413c69;
+    background-color: #709fb0;
 }
 
 /* header and logo */
@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 #logo {
-    color: #413C69;
+    color: #413c69;
     float: left;
     font-size: 300%;
     margin-left: 30px;
@@ -61,11 +61,11 @@ a {
 }
 
 #menu a:hover {
-   border-bottom: 3px solid #709FB0;
+   border-bottom: 3px solid #709fb0;
 }
 
 .active {
-    border-bottom: 3px solid #709FB0;
+    border-bottom: 3px solid #709fb0;
 }
 
 /* hero box */
@@ -93,9 +93,9 @@ a {
     text-align: center;
     width: 90%;
     height: 50%;
-    padding: 25%, 0;
+    padding-top: 5%;
     background-color: rgba(74,71,163, 0.7);
-    top: 100px;
+    top: 15%;
     left: 5%;
     position: absolute;
 }
@@ -114,7 +114,7 @@ a {
 }
 
 #favourites-heading {
-    color: #413C69;
+    color: #413c69;
     text-align: center;
     margin: 30px 0;
     font-size: 280%;
@@ -150,7 +150,7 @@ a {
     height: 360px;
     padding: 30px;
     border-style: solid;
-    border-color: #A7C5EB;
+    border-color: #a7c5eb;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -244,7 +244,7 @@ a {
     border-radius: 2px;
 }
 .text-input:hover {
-    border-color: #A7C5EB;
+    border-color: #a7c5eb;
 }
 .join-button {
     margin-top: 20px;
@@ -252,14 +252,14 @@ a {
     padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
-    background-color: #A7C5EB;
+    background-color: #a7c5eb;
     color: #fff;
     position: below;
-    display:inline-block;
+    display: inline-block;
 }
 .join-button:hover {
     background-color: #fff;
-    color: #A7C5EB;
+    color: #a7c5eb;
 }
 
 
@@ -284,7 +284,7 @@ footer {
 
 .social-media i {
     font-size: 150%;
-    color: #413C69;
+    color: #413c69;
     padding: 1.5%;
 }
 
@@ -322,6 +322,7 @@ footer {
 @media screen and (max-width: 900px) {
 
     #logo {
+        font-size: 275%;
         margin: 0 auto;
     }
 
@@ -334,21 +335,58 @@ footer {
         display: inline-block;
     }
 
-    #hero-text {
-        left: 0;
-    }
-
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 493px) {
 
-    body {
-        background-color: #fff;
+    header {
+        position: static;
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+
+    #menu {
+        font-size: 85%;
+    }
+
+    #hero-outer {
+        margin: 30px 0;
+    }
+
+    #hero-text {
+        height: 80%;
+        top: 7%;
+    }
+
+    #favourites {
+        height: 1125px;
+    }
+
+    .recipe-container {
+        width: 275px;
+        height: 275px;
+        padding: 5px;
+    }
+
+    .fade {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hover-text {
+        font-size: 200%;
     }
 
     #sign-up-section {
         width: 90%;
         padding: 5%;
+        margin: 30px 0;
+    }
+
+    footer {
+        position: static;
     }
     
 }
