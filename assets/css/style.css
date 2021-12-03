@@ -254,7 +254,6 @@ a {
     font-size: 100%;
     background-color: #a7c5eb;
     color: #fff;
-    position: below;
     display: inline-block;
 }
 .join-button:hover {
@@ -388,5 +387,4 @@ footer {
     footer {
         position: static;
     }
-    
 }
