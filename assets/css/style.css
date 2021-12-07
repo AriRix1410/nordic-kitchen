@@ -127,19 +127,19 @@ a {
     margin-top: -15px;
 }
 
-#left-favourite {
+.left-recipe {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-favourite {
+.right-recipe {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-favourite {
+.center-recipe {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
@@ -163,6 +163,12 @@ a {
 
 #recipe-two {
     background: url(../images/moose-burger-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#recipe-three {
+    background: url(../images/swedish-meatballs-square.jpg);
     height: 100%;
     border-radius: 50%;
 }
@@ -200,12 +206,6 @@ a {
 
 .hover-text a {
     text-decoration: none;
-}
-
-#recipe-three {
-    background: url(../images/swedish-meatballs-square.jpg);
-    height: 100%;
-    border-radius: 50%;
 }
 
 /* sign up section */
@@ -261,6 +261,40 @@ a {
     color: #a7c5eb;
 }
 
+/* recipes page */
+
+#recipes {
+    background-color: #fff;
+    height: 110%;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+
+#recipes-heading {
+    color: #413c69;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 280%;
+}
+
+#drinks {
+    background: url(../images/glogg-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#sweet {
+    background: url(../images/kanelbullar-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#savoury {
+    background: url(../images/swedish-meatballs-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
 
 /* footer and social media links */
 
@@ -306,7 +340,7 @@ footer {
         margin-bottom: 15px;
     }
 
-    #left-favourite, #right-favourite, #center-favourite {
+    .left-recipe, .right-recipe, .center-recipe {
         width: inherit;
         padding: 0;
         clear: both;
