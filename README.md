@@ -12,7 +12,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic food an
 
   -  
 
-![Nav Bar](url)
+![Nav Bar]()
 
 - __The landing page image__
 
@@ -90,5 +90,5 @@ The live link can be found here - https://
 
 ### Media
 
-- The photos used on the home and sign up page are from 
-- The images used for the recipes page were taken from
+- The photos used on the home and sign up page are from [Pixabay](https://pixabay.com/)
+- The images used for the recipes page were taken from [Pixabay](https://pixabay.com/)
