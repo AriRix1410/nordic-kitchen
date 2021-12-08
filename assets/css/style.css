@@ -344,8 +344,14 @@ a {
     border-radius: 50%;
 }
 
-#elder-furthark {
-    background: url(../images/elder-futhark-tea-square.jpg);
+#apple-punsch {
+    background: url(../images/apple-punsch-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#orange-punsch {
+    background: url(../images/orange-whitewine-punsch-square.jpg);
     height: 100%;
     border-radius: 50%;
 }
