@@ -356,9 +356,9 @@ a {
     border-radius: 50%;
 }
 
-/* orange punsch recipe */
+/* individual recipe pages */
 
-#orange-punsch-page {
+.individual-recipe-page {
     background-color: #fff;
     height: 100%;
     width: 100%;
@@ -366,7 +366,7 @@ a {
     margin-bottom: 105px;
 }
 
-#orange-heading {
+.individual-recipe-heading {
     color: #413c69;
     text-align: center;
     margin: 30px 0;
