@@ -392,6 +392,12 @@ a {
     margin-bottom: 15px;
 }
 
+.back-button {
+    font-size: 200%;
+    text-align: center;
+    padding: 15px;
+}
+
 /* footer and social media links */
 
 footer {
