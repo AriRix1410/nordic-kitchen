@@ -321,6 +321,35 @@ a {
     border-radius: 2%;
 }
 
+/* drinks page */
+
+#drinks-page {
+    background-color: #fff;
+    height: 600px;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+
+#drinks-heading {
+    color: #413c69;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 280%;
+}
+
+#glogg {
+    background: url(../images/glogg-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#elder-furthark {
+    background: url(../images/elder-futhark-tea-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* footer and social media links */
 
 footer {
