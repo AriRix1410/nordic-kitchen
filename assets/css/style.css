@@ -25,7 +25,7 @@ header {
     z-index: 1;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Skranji', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -356,6 +356,42 @@ a {
     border-radius: 50%;
 }
 
+/* orange punsch recipe */
+
+#orange-punsch-page {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+
+#orange-heading {
+    color: #413c69;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 280%;
+}
+
+.ingredients {
+    font-size: 200%;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.method h3 {
+    text-align: center;
+}
+
+.method {
+    font-size: 200%;
+    width: 90%;
+    padding: 5%;
+    clear: both;
+    margin-bottom: 15px;
+}
+
 /* footer and social media links */
 
 footer {
@@ -400,7 +436,7 @@ footer {
         margin-bottom: 15px;
     }
 
-    .left-recipe, .right-recipe, .center-recipe {
+    .left-recipe, .right-recipe, .center-recipe, .ingredients, .method {
         width: inherit;
         padding: 0;
         clear: both;
@@ -417,6 +453,10 @@ footer {
 
     #contact-us section {
         height: 100%;
+    }
+
+    .ingredients h3, .ingredients-list {
+        text-align: center;
     }
 }
 
