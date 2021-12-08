@@ -452,12 +452,8 @@ footer {
     .hover-text {
         opacity: 1;
     }
-
-    #recipes {
-        height: 100%;
-    }
-
-    #contact-us section {
+    
+    .page-section {
         height: 100%;
     }
 
