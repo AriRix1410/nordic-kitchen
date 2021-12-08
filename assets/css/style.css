@@ -358,7 +358,7 @@ a {
 
 /* individual recipe pages */
 
-.individual-recipe-page {
+.page-section {
     background-color: #fff;
     height: 100%;
     width: 100%;
@@ -366,7 +366,7 @@ a {
     margin-bottom: 105px;
 }
 
-.individual-recipe-heading {
+.section-heading {
     color: #413c69;
     text-align: center;
     margin: 30px 0;
@@ -452,7 +452,7 @@ footer {
     .hover-text {
         opacity: 1;
     }
-    
+
     .page-section {
         height: 100%;
     }
