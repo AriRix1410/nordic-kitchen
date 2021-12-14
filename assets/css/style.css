@@ -160,12 +160,6 @@ a {
     margin: 0 auto;
 }
 
-#recipe-three {
-    background: url(../images/swedish-meatballs-square.jpg);
-    height: 100%;
-    border-radius: 50%;
-}
-
 .fade {
     height: 300px;
     width: 300px;
