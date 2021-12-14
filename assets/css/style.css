@@ -160,18 +160,6 @@ a {
     margin: 0 auto;
 }
 
-#recipe-one {
-    background: url(../images/salmon-square.jpg);
-    height: 100%;
-    border-radius: 50%;
-}
-
-#recipe-two {
-    background: url(../images/moose-burger-square.jpg);
-    height: 100%;
-    border-radius: 50%;
-}
-
 #recipe-three {
     background: url(../images/swedish-meatballs-square.jpg);
     height: 100%;
@@ -348,6 +336,26 @@ a {
 
 #baked-salmon {
     background: url(../images/salmon-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* sweet page */
+
+#kanelbullar {
+    background: url(../images/kanelbullar-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#waffles {
+    background: url(../images/berry-jam-waffles-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#risgrynsgrot {
+    background: url(../images/rice-pudding-square.jpg);
     height: 100%;
     border-radius: 50%;
 }
