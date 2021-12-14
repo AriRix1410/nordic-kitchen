@@ -108,9 +108,10 @@ a {
 
 .page-section {
     background-color: #fff;
-    height: 600px;
+    height: 100%;
     width: 100%;
-    margin-top: 15px;
+    margin: 105px 0;
+    padding-bottom: 30px;
 }
 
 .section-heading {
@@ -326,6 +327,26 @@ a {
     border-radius: 50%;
 }
 
+/* savoury page */
+
+#meatballs {
+    background: url(../images/swedish-meatballs-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#elk-burger {
+    background: url(../images/moose-burger-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
+#baked-salmon {
+    background: url(../images/salmon-square.jpg);
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* individual recipe pages */
 
 .ingredients {
@@ -388,11 +409,9 @@ footer {
         position: static;
     }
     
-    .page-section {
-        width: 100%;
-        height: 100%;
+    /* .page-section {
         margin: 0 auto;
-    }
+    } */
 
     #popular-recipes {
         margin-bottom: 15px;
