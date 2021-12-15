@@ -232,7 +232,7 @@ a {
     border-radius: 2px;
 }
 .text-input:hover {
-    border-color: #a7c5eb;
+    border-color: #709fb0;
 }
 .join-button {
     margin-top: 20px;
@@ -241,11 +241,11 @@ a {
     text-align: center;
     font-size: 100%;
     background-color: #a7c5eb;
-    color: #fff;
+    color: #413c69;
     display: inline-block;
 }
 .join-button:hover {
-    background-color: #fff;
+    background-color: #413c69;
     color: #a7c5eb;
 }
 
