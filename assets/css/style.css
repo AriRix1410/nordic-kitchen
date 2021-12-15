@@ -469,6 +469,10 @@ footer {
         margin: 0;
     }
 
+    .method {
+        text-align: center;
+    }
+
     #contact-us-section {
         margin-top: 0;
     }
