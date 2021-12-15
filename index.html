@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website providing recipes for Norwegian food">
     <meta name="keywords" content="recipes, food, Norway, cooking">
-    
+
     <title>Nordic Kitchen</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <div id="logo-container">
@@ -40,9 +42,11 @@
                 <br>
                 <h2>What is Nordic cuisine?</h2>
                 <br>
-                <p>Nordic cooking uses recipes native to the Nordic countries, Norway, Sweden, Denmark, Finland and Iceland.</p>
+                <p>Nordic cooking uses recipes native to the Nordic countries, Norway, Sweden, Denmark, Finland and
+                    Iceland.</p>
                 <br>
-                <p>Whether you're looking for something new or want to recreate some old favourites, we have many recipes for you to choose from.</p>
+                <p>Whether you're looking for something new or want to recreate some old favourites, we have many
+                    recipes for you to choose from.</p>
             </div>
         </section>
         <section id="favourites">
@@ -53,7 +57,9 @@
                     <div class="recipe-container">
                         <a href="/recipes/baked-salmon.html">
                             <div id="baked-salmon">
-                                <div class="fade"><div class="hover-text">Baked Salmon</div></div>
+                                <div class="fade">
+                                    <div class="hover-text">Baked Salmon</div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -62,7 +68,9 @@
                     <div class="recipe-container">
                         <a href="/recipes/apple-punsch.html">
                             <div id="apple-punsch">
-                                <div class="fade"><div class="hover-text">Apple Punsch</div></div>
+                                <div class="fade">
+                                    <div class="hover-text">Apple Punsch</div>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -71,46 +79,85 @@
                     <div class="recipe-container">
                         <a href="/recipes/waffles.html">
                             <div id="waffles">
-                                <div class="fade"><div class="hover-text">Norwegian Waffles</div></div>
+                                <div class="fade">
+                                    <div class="hover-text">Norwegian Waffles</div>
+                                </div>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="sign-up-section">
-           <div id="sign-up">
-                <form class="signup-form">
-                    <p>Would you like access to even more recipes? Do you have some of your own that you'd like to share with others? Then why not join us...</p>
+        <section id="review-section">
+            <div class="form-section">
+                <form class="form-area">
+                    <p>Is there a recipe that you particularly enjoy? Is there something you'd add or change to improve any of our recipes? Then why not...</p>
                     <br>
-                    <h2>Sign Up Today</h2>
-                
-                    <label for="fname">First Name</label>
-                    <input id="fname" name="first_name" type="text" class="text-input" required>
-                
-                    <label for="lname">Last Name</label>
-                    <input id="lname" name="last_name" type="text" class="text-input" required>
-                
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email_address" class="text-input" required>
-                
-                    <input class="join-button" type="submit" value="Sign Up">
+                    <h2>Leave us a review</h2>
+            
+                    <label for="name">Name</label>
+                    <input id="name" name="review_name" type="text" class="text-input" required>
+            
+                    <label for="review-email">Email Address</label>
+                    <input id="review-email" name="review_email" type="email" class="text-input" required>
+            
+                    <label for="choose-option">Select Recipe</label>
+                    <div id="choose-option">
+                        <select class="form-select" id="recipe-choice">
+                            <option value="glogg">Glogg</option>
+                            <option value="orange-punsch">Orange Punsch</option>
+                            <option value="apple-punsch">Apple Punsch</option>
+                            <option value="baked-salmon">Baked Salmon</option>
+                            <option value="elk-burger">Elk Burger</option>
+                            <option value="swedish-meatballs">Swedish Meatballs</option>
+                            <option value="kanelbullar">Kanelbullar</option>
+                            <option value="waffles">Norwegian Waffles</option>
+                            <option value="risgrynsgrot">Risgrynsgröt</option>
+                        </select>
+                    </div>
+                    <br>
+                    <label for="recipe-rating">Choose Your Rating</label>
+                    <div class="star-rating"><i class="fa fa-star"></i>
+                            <select class="form-select" id="recipe-rating">
+                                <option value="1star">1</option>
+                                <option value="2stars">2</option>
+                                <option value="3stars">3</option>
+                                <option value="4stars">4</option>
+                                <option value="5stars">5</option>
+                            </select>
+                    </div>
+                    <br>
+                    <label for="review_area">Write Your Review Below</label>
+                    <textarea name="review_area" id="review" rows="10" placeholder="Leave review here"></textarea>
+            
+                    <input class="join-button" type="submit" value="Send">
                 </form>
-           </div>
+            </div>
         </section>
     </main>
     <footer>
         <ul class="social-media">
-            <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (link opens in new tab)"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (link opens in new tab)"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (link opens in new tab)"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (link opens in new tab)"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://pinterest.com" target="_blank" rel="noopener" aria-label="Visit our Pinterest page (link opens in new tab)"><i class="fab fa-pinterest"></i></a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (link opens in new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (link opens in new tab)"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (link opens in new tab)"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (link opens in new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="https://pinterest.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Pinterest page (link opens in new tab)"><i class="fab fa-pinterest"></i></a>
+            </li>
         </ul>
     </footer>
-    
+
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

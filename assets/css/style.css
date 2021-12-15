@@ -195,9 +195,9 @@ a {
     text-decoration: none;
 }
 
-/* sign up section */
+/* review section */
 
-#sign-up-section {
+#review-section {
     background-image: url(../images/tirol.jpg);
     background-size: cover;
     width: 100%;
@@ -206,12 +206,12 @@ a {
     margin-bottom: 105px;
 }
 
-#sign-up {
+.form-section {
     display: block;
     text-align: center;
 }
 
-.signup-form {
+.form-area {
     color: #fff;
     background-color: rgba(74,71,163, 0.7);
     max-width: 600px;
@@ -219,7 +219,7 @@ a {
     display: inline-block;
     margin-top: 75px;
 }
-.signup-form h2 {
+.form-area h2 {
     color: #fff;
 }
 .text-input {
@@ -247,6 +247,16 @@ a {
 .join-button:hover {
     background-color: #413c69;
     color: #a7c5eb;
+}
+
+#review {
+    background: inherit;
+    width: 100%;
+    color: #fff;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 2%;
 }
 
 /* recipes page */
@@ -425,7 +435,7 @@ footer {
         opacity: 1;
     }
 
-    #sign-up-section {
+    #review-section {
         margin-bottom: 0;
     }
 
@@ -510,8 +520,9 @@ footer {
         font-size: 200%;
     }
 
-    #sign-up-section {
+    #review-section {
         width: 90%;
+        height: 90%;
         padding: 5%;
         margin: 30px 0;
     }
