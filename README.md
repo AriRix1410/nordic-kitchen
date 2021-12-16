@@ -2,7 +2,7 @@
 
 Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine and help people familiar with Nordic cooking to find recipes that they love. This site is targeted towards anybody that is interested in Nordic food and the Nordic countries and cultures. 
 
-![Responsive Mockup](/assets/images/mock-up.png)
+![Responsive Mockup](/assets/images/readme/mock-up.png)
 
 ## Features 
 
@@ -12,35 +12,37 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
   - This is featured on all pages and is fully responsive down to 320px width. The navigation bar includes links to the Logo, Home page, Recipes and Get In Touch page and is replicated on each page to make navigation easier.
   - The navigation bar allows users to be able to easily navigate between the three main pages on all devices.   
 
-![Nav Bar](/assets/images/nav-bar.png)
+![Nav Bar](/assets/images/readme/nav-bar.png)
 
 - __The Landing Page/Hero Image__
 
   - This section includes a photograph with text overlay to allow users to see exactly what the page is about and what the intended use of the page is.
   - The image chosen for the landing page is one of "Pannekaken", or Norwegian Pancakes. These are depicted in heart shapes to indicate a love for Nordic cuisine.
 
-![Landing Page](/assets/images/hero-image.png)
+![Landing Page](/assets/images/readme/hero-image.png)
 
 - __Favourite Recipes Section__
 
   - This section will allow users to see what recipes are the most popular with other users.
   - This section will be updated to allow users to see what are currently the most popular recipes.
+  - The images in this section are links to open a page for that recipe.
+  - When in desktop view, the images on this section have a hover feature that gives a fade effect with the names of the recipes overlayed. This has been removed for smaller screens and the recipe will be visible without the need to hover.
 
-![Favourite Recipes](/assets/images/favourites-section.png)
+![Favourite Recipes](/assets/images/readme/favourites-section.png)
 
 - __Leave a Review Section__
 
-  - This section will allow users to rate recipes
-  - This section will allow users to submit comments and reviews about specific recipes
+  - This section will allow users to rate recipes.
+  - This section will allow users to submit comments and reviews about specific recipes.
 
-![Review Section](/assets/images/review-section.png)
+![Review Section](/assets/images/readme/review-section.png)
 
 - __The Footer__ 
 
   - The footer section houses links to social media sites, these links open in a new tab.
   - For larger screen sizes the footer is fixed to allow users the ability to access the links without having to scroll to the bottom of the page.
 
-![Footer](/assets/images/footer.png)
+![Footer](/assets/images/readme/footer.png)
 
 - __Recipes__
 
@@ -48,7 +50,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
   - The images on this page are links to open a page for the users chosen recipe category.
   - When in desktop view, the images on this page have a hover feature that displays a faded effect with the names of the recipe catergories overlayed. On smaller screens this is removed and the category names are always visible.  
 
-![Recipes](/assets/images/recipes-page.png)
+![Recipes](/assets/images/readme/recipes-page.png)
 
 - __Recipe Category Pages__
 
@@ -56,7 +58,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
   - The images on these pages are links to open specific recipe pages.
   - When in desktop view, the images on these pages have a hover feature that display a faded effect with the names of the specific recipes overlayed. On smaller screens this is removed and the recipe names are always visible.  
 
-![Recipe Selection](/assets/images/recipe-selection.png)
+![Recipe Selection](/assets/images/readme/recipe-selection.png)
 
 - __Specific Recipe Pages__
 
@@ -64,14 +66,14 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
   - The images on these pages are links to open specific recipe pages.
   - When in desktop view, the images on these pages have a hover feature that display a faded effect with the names of the specific recipes overlayed. On smaller screens this is removed and the recipe names are always visible.  
 
-![Recipe Selection](/assets/images/recipe-pages.png)
+![Recipe Selection](/assets/images/readme/recipe-pages.png)
 
 - __Get In Touch Page__
 
   - This page will allow the users to sign up and also to leave a message.
   - The message feature will allow the user to make suggestions about featured recipes.
 
-![Get In Touch](/assets/images/get-in-touch.png)
+![Get In Touch](/assets/images/readme/get-in-touch.png)
 
 ### Features Left to Implement
 
@@ -91,13 +93,13 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faririx1410.github.io%2Fnordic-kitchen%2F)
-  - ![W3C validator](/assets/images/w3c-validator.png)
+  - ![W3C validator](/assets/images/readme/w3c-validator.png)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faririx1410.github.io%2Fnordic-kitchen%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  - ![(Jigsaw) validator](/assets/images/jigsaw.png)
+  - ![(Jigsaw) validator](/assets/images/readme/jigsaw.png)
 - Accessibility
   - I have checked accessibilty by running through Lighthouse via devtools
-  - ![Lighthouse](/assets/images/lighthouse.png)
+  - ![Lighthouse](/assets/images/readme/lighthouse.png)
 
 ### Unfixed Bugs
 
