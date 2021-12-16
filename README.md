@@ -8,22 +8,24 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
 ### Existing Features
 
-- __Navigation Bar__
-  - This is featured on all pages and is fully responsive down to 320px width. The navigation bar includes links to the Logo, Home page, Recipes and Get In Touch page and is replicated on each page to make navigation easier.
+- __Header/Navigation Bar__
+  - This is featured on all pages and is fully responsive down to 320px width. This area includes links to the Logo, Home page, Recipes and Get In Touch page and is replicated on each page to make navigation easier.
+  - The logo font is Skranji and has been used because it resembles Nordic runes.
+  - The logo is displayed in the top left of the page with navigation links displayed to the right.
   - The navigation bar allows users to be able to easily navigate between the three main pages on all devices.   
 
-![Nav Bar](/assets/images/readme/nav-bar.png)
+![Header/Nav Bar](/assets/images/readme/nav-bar.png)
 
 - __The Landing Page/Hero Image__
 
   - This section includes a photograph with text overlay to allow users to see exactly what the page is about and what the intended use of the page is.
-  - The image chosen for the landing page is one of "Pannekaken", or Norwegian Pancakes. These are depicted in heart shapes to indicate a love for Nordic cuisine.
+  - The image chosen for the landing page is one of "Pannekaken", or Norwegian Pancakes. These are depicted in heart shapes in an effort to indicate a love for Nordic cuisine to the user.
 
 ![Landing Page](/assets/images/readme/hero-image.png)
 
 - __Favourite Recipes Section__
 
-  - This section will allow users to see what recipes are the most popular with other users.
+  - This section allows users to see what recipes are the most popular amongst other users.
   - This section will be updated to allow users to see what are currently the most popular recipes.
   - The images in this section are links to open a page for that recipe.
   - When in desktop view, the images on this section have a hover feature that gives a fade effect with the names of the recipes overlayed. This has been removed for smaller screens and the recipe will be visible without the need to hover.
@@ -118,11 +120,27 @@ The live link can be found here - https://aririx1410.github.io/nordic-kitchen/
 
 ### Content 
 
-- 
-- 
+- The initial code for the header, footer and circle image containers was taken from the Code Institute [Love Running]() project
+- Use of a Z-index for fixed header/footer was taken from [Code Convey](https://codeconvey.com/css-fixed-header-scrolling-body/)
+- [Stack Overflow](https://stackoverflow.com) was a great source of information but was particularly used for help making header/footer static for smaller screens [here](https://stackoverflow.com/questions/21252631/what-is-the-opposite-of-positionfixed-css), when making the hover effect on recipe images [here](https://stackoverflow.com/questions/11869805/how-do-i-make-an-invisible-text-input-box-visible-on-hover) and creating a message box on a form [here](https://stackoverflow.com/questions/54827262/contact-form-text-area-enters-and-scrolling)
+- Help centering the hover overlay text was found [here](https://iampalash.hashnode.dev/center-text-vertically-and-horizontally-in-css)
+- [W3Schools](https://www.w3schools.com) was very informative throughout especially for understanding inline/block/inline-block displays [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1)
+- Code was taken from [here](https://codepen.io/z9group/pen/rjqBow) when making the drop downs on review form
 - The star icon in the review section, undo icon on recipe pages and social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Recipes
+
+- Apple Punsch - [AllRecipes](http://allrecipes.co.uk/recipe/6299/hot-spiced-apple-punch.aspx)
+- Baked Salmon - [Downshiftology](https://downshiftology.com/recipes/dijon-baked-salmon/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+- Elk Burger - [EatElkMeat.com](https://eatelkmeat.com/recipes/elk-burger/)
+- Glogg - [TheSpruceEats](https://www.thespruceeats.com/traditional-glogg-recipe-3510987?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+- Kanelbullar - [LondonEats](https://londoneats.wordpress.com/2012/02/19/kanelbullar-swedish-cinnamon-buns/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+- Norwegian Waffles - [MainlyFood](http://www.mainlyfood.com/norwegian-waffles/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+- Orange White Wine Punsch - [Saveur](https://www.saveur.com/article/Recipes/White-Wine-Punch/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+- Risgrynsgröt - [Food.com](https://www.food.com/recipe/norwegian-rice-pudding-438557?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
+- Swedish Meatballs - [DamnDelicious](https://damndelicious.net/2014/02/21/swedish-meatballs/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly)
 
 ### Media
 
 - All images used are from [Pixabay](https://pixabay.com/)
-- Favicon.ico icon was by [Favicon-Generator](https://www.favicon-generator.org/)
+- Favicon.ico icon was generated by [Favicon-Generator](https://www.favicon-generator.org/)
