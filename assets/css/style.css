@@ -113,12 +113,8 @@ a {
     background-color: #fff;
     height: 100%;
     width: 100%;
-    margin: 105px 0;
+    margin: 30px 0;
     padding-bottom: 30px;
-}
-
-#favourites>.page-section {
-    margin-top: 30px;
 }
 
 .section-heading {
@@ -205,8 +201,7 @@ a {
     background-size: cover;
     width: 100%;
     height: 780px;
-    margin-top: -75px;
-    margin-bottom: 105px;
+    margin-top: 30px 0;
 }
 
 .form-section {
@@ -288,7 +283,11 @@ a {
 
 /* user review section */
 
-.testimonial-box-container {
+#user-reviews {
+    margin-bottom: 105px;
+}
+
+.review-box-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,7 +295,7 @@ a {
     width: 100%;
 }
 
-.testimonial-box {
+.review-box {
     width: 475px;
     background-color: #a7c5eb;
     padding: 15px;
@@ -321,11 +320,6 @@ a {
 .user-profile {
     display: flex;
     align-items: center;
-}
-
-.user-name {
-    display: flex;
-    flex-direction: column;
 }
 
 .box-top {
@@ -515,7 +509,7 @@ footer {
         opacity: 1;
     }
 
-    #review-section {
+    #review-section, #user-reviews {
         margin-bottom: 0;
     }
 
@@ -556,7 +550,7 @@ footer {
     }
 
     .page-section {
-        margin: 0;
+        margin: 30px 0;
     }
 
     .method {
@@ -605,6 +599,15 @@ footer {
         height: 90%;
         padding: 5%;
         margin: 30px 0;
+    }
+
+    .review-box {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .user-name, .user-rating, .user-comments h3 {
+        font-size: 80%;
     }
 
     #contact-us-section {
