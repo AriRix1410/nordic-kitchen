@@ -109,7 +109,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
 ### Bugs
 
-- I noticed that when checking the responsiveness on smaller screen sizes, I had developed a slight horizontal scroll. Using Chrome Dev Tools I could see that there were elements on the page that were slightly larger than the screen width. Upon further investigation it became apparent that this was the width of the hover effect I had put on the images in the Favourites section. after restyling this the scroll was removed.
+- I noticed that when checking the responsiveness on smaller screen sizes, I had developed a slight horizontal scroll. Using Chrome Dev Tools I could see that there were elements on the page that were slightly larger than the screen width. Upon further investigation it became apparent that this was the width of the hover effect I had put on the images in the Favourites section, after restyling this, the scroll was removed.
 - When running the home page through Lighthouse, the Accessibility was showing as 97. Examining this showed an issue with poor contrast on the form submit button. After changing the colour of the text and background of the button, this was ran again and gave a score of 100.
 
 ### Unfixed Bugs
