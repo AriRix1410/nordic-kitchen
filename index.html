@@ -104,7 +104,8 @@
             
                     <label for="recipe-choice">Select Recipe</label>
                     <div id="choose-option">
-                        <select class="form-select" id="recipe-choice">
+                        <select class="form-select" id="recipe-choice" required>
+                            <option value=""></option>
                             <option value="glogg">Glogg</option>
                             <option value="orange-punsch">Orange Punsch</option>
                             <option value="apple-punsch">Apple Punsch</option>
@@ -119,7 +120,8 @@
                     <br>
                     <label for="recipe-rating">Choose Your Rating</label>
                     <div class="star-rating"><i class="fas fa-star"></i>
-                            <select class="form-select" id="recipe-rating">
+                            <select class="form-select" id="recipe-rating" required>
+                                <option value=""></option>
                                 <option value="1star">1</option>
                                 <option value="2stars">2</option>
                                 <option value="3stars">3</option>
@@ -129,7 +131,7 @@
                     </div>
                     <br>
                     <label for="review">Write Your Review Below</label>
-                    <textarea name="review_area" id="review" rows="10" placeholder="Leave review here"></textarea>
+                    <textarea name="review_area" id="review" rows="10" placeholder="Leave review here (optional)"></textarea>
             
                     <input class="join-button" type="submit" value="Leave Review">
                 </form>
