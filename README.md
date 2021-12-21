@@ -58,7 +58,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
   - There are three category pages; Drinks, Savoury and Sweet.
   - The images on these pages are links to open specific recipe pages.
-  - When in desktop view, the images on these pages have a hover feature that display a faded effect with the names of the specific recipes overlayed. On smaller screens this is removed and the recipe names are always visible.  
+  - When in desktop view, the images on these pages have a hover feature that display a faded effect with the names of the specific recipes overlayed. On smaller screens this is removed and the recipe names are always visible.
 
 ![Recipe Selection](/assets/images/readme/recipe-selection.png)
 
@@ -66,7 +66,8 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
   - The individual recipe pages allow the user to see an image of the food, the ingredients needed and the method.
   - The images on these pages are links to open specific recipe pages.
-  - When in desktop view, the images on these pages have a hover feature that display a faded effect with the names of the specific recipes overlayed. On smaller screens this is removed and the recipe names are always visible.  
+  - When in desktop view, the images on these pages have a hover feature that display a faded effect with the names of the specific recipes overlayed. On smaller screens this is removed and the recipe names are always visible.
+  - There is a back button at the bottom of each recipe to take you back to the category page the recipe is featured on in order to make it easier for users to get back to that page. 
 
 ![Recipe Selection](/assets/images/readme/recipe-pages.png)
 
