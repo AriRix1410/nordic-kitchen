@@ -91,9 +91,8 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
 ## Testing 
 
--In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- The site has been tested on Chrome, Microsoft Edge and Firefox as well as on my Android phone.
+- I have confirmed that the site is responsive, looks good and is fuctional on all screen sizes down to 320px. This has been done by testing on the dev tools device toolbar as well as double checking on my own devices.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 

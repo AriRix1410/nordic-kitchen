@@ -331,6 +331,10 @@ a {
 
 /* recipes page */
 
+.full-section {
+    margin: 105px 0;
+}
+
 #drinks {
     background: url(../images/glogg-square.jpg);
     height: 100%;
@@ -547,6 +551,10 @@ footer {
 
     #hero-outer {
         margin: 30px 0;
+    }
+
+    .full-section {
+        margin: 0;
     }
 
     .page-section {
