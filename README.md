@@ -10,7 +10,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
 - __Header/Navigation Bar__
   - This is featured on all pages and is fully responsive down to 320px width. This area includes links to the Logo, Home page, Recipes and Get In Touch page and is replicated on each page to make navigation easier.
-  - The logo font is Skranji and has been used because it resembles Nordic runes.
+  - The logo font is Skranji and has been used because it has a resemblance to Nordic runes.
   - The logo is displayed in the top left of the page with navigation links displayed to the right.
   - The navigation bar allows users to be able to easily navigate between the three main pages on all devices.   
 
@@ -103,6 +103,12 @@ If this section grows too long, you may want to split it off into a separate fil
   - I have checked accessibilty by running through Lighthouse via devtools
   - ![Lighthouse](/assets/images/readme/lighthouse.png)
 
+### Bugs
+
+- horizontal scroll from fade
+
+- poor background/font contrast
+
 ### Unfixed Bugs
 
 - No unfixed bugs
@@ -120,7 +126,7 @@ The live link can be found here - https://aririx1410.github.io/nordic-kitchen/
 
 ### Content 
 
-- The initial code for the header, footer and circle image containers was taken from the Code Institute [Love Running]() project
+- The initial code for the header, footer and circle images/containers was taken from the Code Institute [Love Running](https://learn.codeinstitute.net/dashboard) project
 - Use of a Z-index for fixed header/footer was taken from [Code Convey](https://codeconvey.com/css-fixed-header-scrolling-body/)
 - [Stack Overflow](https://stackoverflow.com) was a great source of information but was particularly used for help making header/footer static for smaller screens [here](https://stackoverflow.com/questions/21252631/what-is-the-opposite-of-positionfixed-css), when making the hover effect on recipe images [here](https://stackoverflow.com/questions/11869805/how-do-i-make-an-invisible-text-input-box-visible-on-hover) and creating a message box on a form [here](https://stackoverflow.com/questions/54827262/contact-form-text-area-enters-and-scrolling)
 - Help centering the hover overlay text was found [here](https://iampalash.hashnode.dev/center-text-vertically-and-horizontally-in-css)
