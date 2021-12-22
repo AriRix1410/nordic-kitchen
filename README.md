@@ -111,6 +111,7 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
 
 - I noticed that when checking the responsiveness on smaller screen sizes, I had developed a slight horizontal scroll. Using Chrome Dev Tools I could see that there were elements on the page that were slightly larger than the screen width. Upon further investigation it became apparent that this was the width of the hover effect I had put on the images in the Favourites section, after restyling this, the scroll was removed.
 - When running the home page through Lighthouse, the Accessibility was showing as 97. Examining this showed an issue with poor contrast on the form submit button. After changing the colour of the text and background of the button, this was ran again and gave a score of 100.
+- When using the W3C validator, "error element option without attribute label must not be empty" was being displayed. Every attempt at fixing this bug created an entirely new bug. After a lot of searching through various channels, I was able to correct this using a non-breaking space.
 
 ### Unfixed Bugs
 
@@ -132,7 +133,7 @@ The live link can be found here - https://aririx1410.github.io/nordic-kitchen/
 
 - The initial code for the header, footer and circle images/containers was taken from the Code Institute [Love Running](https://learn.codeinstitute.net/dashboard) project
 - Use of a Z-index for fixed header/footer was taken from [Code Convey](https://codeconvey.com/css-fixed-header-scrolling-body/)
-- [Stack Overflow](https://stackoverflow.com) was a great source of information but was particularly used for help making header/footer static for smaller screens [here](https://stackoverflow.com/questions/21252631/what-is-the-opposite-of-positionfixed-css), when making the hover effect on recipe images [here](https://stackoverflow.com/questions/11869805/how-do-i-make-an-invisible-text-input-box-visible-on-hover) and creating a message box on a form [here](https://stackoverflow.com/questions/54827262/contact-form-text-area-enters-and-scrolling)
+- [Stack Overflow](https://stackoverflow.com) was a great source of information but was particularly used for help making header/footer static for smaller screens [here](https://stackoverflow.com/questions/21252631/what-is-the-opposite-of-positionfixed-css), when making the hover effect on recipe images [here](https://stackoverflow.com/questions/11869805/how-do-i-make-an-invisible-text-input-box-visible-on-hover), creating a message box on a form [here](https://stackoverflow.com/questions/54827262/contact-form-text-area-enters-and-scrolling) and fixing an error in the review form [here](https://stackoverflow.com/questions/22237658/html5-validation-error-with-select-required-attribute/31800584)
 - Help centering the hover overlay text was found [here](https://iampalash.hashnode.dev/center-text-vertically-and-horizontally-in-css)
 - [W3Schools](https://www.w3schools.com) was very informative throughout especially for understanding inline/block/inline-block displays [here](https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_span1)
 - Code was taken from [here](https://codepen.io/z9group/pen/rjqBow) when making the drop downs on the review form.
