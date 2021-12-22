@@ -1,6 +1,8 @@
 # Nordic Kitchen
 
-Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine and help people familiar with Nordic cooking to find recipes that they love. This site is targeted towards anybody that is interested in Nordic food and the Nordic countries and cultures. 
+Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine and help people familiar with Nordic cooking to find recipes that they love. This site is targeted towards anybody that is interested in Nordic food and the Nordic countries and cultures.
+
+As I user, I am looking for a website that is visually appealing, is clear in what it is offering and is functional.
 
 ![Responsive Mockup](/assets/images/readme/mock-up.png)
 
@@ -123,7 +125,8 @@ Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine
   - In the GitHub repository, navigate to the Settings tab
   - Scroll down to GitHub Pages and select on the "Check It Out Here" link
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, click save.
+  - The page will be automatically refreshed with a message stating successful deployment
 
 The live link can be found here - https://aririx1410.github.io/nordic-kitchen/
 
