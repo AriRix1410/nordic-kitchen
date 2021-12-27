@@ -378,7 +378,7 @@ a {
     border-radius: 2%;
 }
 
-#message::placeholder {
+#message_area::placeholder {
     color: #fff;
 }
 

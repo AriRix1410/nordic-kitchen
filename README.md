@@ -1,8 +1,9 @@
 # Nordic Kitchen
 
-Nordic Kitchen is a website that aims to introduce more people to Nordic cuisine and help people familiar with Nordic cooking to find recipes that they love. This site is targeted towards anybody that is interested in Nordic food and the Nordic countries and cultures.
+Nordic Kitchen is a website that aims to introduce people to Nordic cuisine and provides a platform for individuals of all abilities to share their favourite recipes. Nordic Kitchen targets anyone interested in discovering Nordic food and those who are well acquainted and want to share their knowledge of the cuisine and culture.
 
-As I user, I am looking for a website that is visually appealing, is clear in what it is offering and is functional.
+Users of Nordic Kitchen will be able to find and rate recipes as well as submit and share their favourite recipes and suggestions of their own for other users to enjoy. Nordic Kitchen aims to be both functional and visually appealing to users.
+
 
 ![Responsive Mockup](/assets/images/readme/mock-up.png)
 
@@ -12,7 +13,7 @@ As I user, I am looking for a website that is visually appealing, is clear in wh
 
 - __Header/Navigation Bar__
   - This is featured on all pages and is fully responsive down to 320px width. This area includes links to the Logo, Home page, Recipes and Get In Touch page and is replicated on each page to make navigation easier.
-  - The logo font is Skranji and has been used because it has a resemblance to Nordic runes.
+  - The logo font is Skranji and has been used because it has a resemblance to Nordic runes. The color for the logo, as well as the colors used through out, are based on a traditional Nordic color palette.
   - The logo is displayed in the top left of the page with navigation links displayed to the right.
   - The navigation bar allows users to be able to easily navigate between the three main pages on all devices.   
 
