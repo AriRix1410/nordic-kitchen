@@ -42,7 +42,7 @@ Users of Nordic Kitchen will be able to find and rate recipes as well as submit 
 
 ![Leave a Review Section](/assets/images/readme/review-section.png)
 
-- __Leave a Review Section__
+- __User Reviews Section__
 
   - This section will allow users to see the recipe reviews of other users.
   - This section is aimed to inspire users to both try the recipes and also to leave a review themselves.
